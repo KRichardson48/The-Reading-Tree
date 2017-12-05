@@ -44,7 +44,7 @@ namespace ReadingTree
         {
             List<string> newEntry = new List<string>();
             int id = -1;
-            string name_lvl = groupName + " " + level.ToString();
+            string name_lvl =  groupName + " | Level: " + level.ToString();
             bool wordAlreadyChosen = false;
             foreach(List<string> activeList in chosenWordsList)
             {
